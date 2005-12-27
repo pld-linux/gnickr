@@ -7,13 +7,18 @@ Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/gnickr/%{name}-%{version}.tar.gz
 # Source0-md5:	551816663da55c9711981a014bc05d10
 URL:		http://gnickr.sourceforge.net/
+BuildRequires:  autoconf >= 2.52
+BuildRequires:  automake
 BuildRequires:	intltool
+BuildRequires:  libtool
 BuildRequires:	pkgconfig
+BuildRequires:	python-Imaging-devel
 BuildRequires:	python-devel
 BuildRequires:	python-gnome-devel >= 2.12.3
 BuildRequires:	python-pygtk-devel
 %pyrequires_eq	python-modules
 Requires:	gtk+2 >= 2:2.8.0
+Requires:	python-Imaging
 Requires:	python-gnome
 Requires:	python-pygtk-gtk >= 2:2.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
