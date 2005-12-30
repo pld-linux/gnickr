@@ -1,11 +1,11 @@
 Summary:	Gnickr! - Flickr! photo manager
 Name:		gnickr
-Version:	0.0.2
+Version:	0.0.3
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Multimedia
 Source0:	http://dl.sourceforge.net/gnickr/%{name}-%{version}.tar.gz
-# Source0-md5:	551816663da55c9711981a014bc05d10
+# Source0-md5:	e5ef6d0434d692660ead9b16b160e169
 URL:		http://gnickr.sourceforge.net/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
