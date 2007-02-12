@@ -1,5 +1,5 @@
 Summary:	Gnickr! - Flickr! photo manager
-Summary(pl):	Gnickr! - zarz±dca zdjêæ Flickr!
+Summary(pl.UTF-8):   Gnickr! - zarzÄ…dca zdjÄ™Ä‡ Flickr!
 Name:		gnickr
 Version:	0.0.3
 Release:	0.1
@@ -29,10 +29,10 @@ Gnickr allows you to manage photos on your Flickr site as if they
 were local files on your Gnome desktop. It does this by creating
 a Flickr virtual filesystem.
 
-%description -l pl
-Gnickr umo¿liwia zarz±dzanie zdjêciami na stronie Flickr tak, jakby
-by³y lokalnymi plikami na pulpicie GNOME. Robi to poprzez utworzenie
-wirtualnego systemu plików Flickr.
+%description -l pl.UTF-8
+Gnickr umoÅ¼liwia zarzÄ…dzanie zdjÄ™ciami na stronie Flickr tak, jakby
+byÅ‚y lokalnymi plikami na pulpicie GNOME. Robi to poprzez utworzenie
+wirtualnego systemu plikÃ³w Flickr.
 
 %prep
 %setup -q
