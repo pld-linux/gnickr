@@ -1,5 +1,5 @@
 Summary:	Gnickr! - Flickr! photo manager
-Summary(pl.UTF-8):   Gnickr! - zarządca zdjęć Flickr!
+Summary(pl.UTF-8):	Gnickr! - zarządca zdjęć Flickr!
 Name:		gnickr
 Version:	0.0.3
 Release:	0.1
